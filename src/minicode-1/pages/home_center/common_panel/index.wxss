@@ -6,8 +6,13 @@
   left: 0;
   width: 100%;
 	height: 320px;
-	background-color: #27c3d9;
+	background-color: #650483;
 }
+.common-panel-navbar{
+	color: rgb(0, 0, 0);
+	background-color: #650483;
+}
+
 
 .common-panel-header {
   z-index: 1;
@@ -16,6 +21,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #650483;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .common-panel-header-block {
@@ -29,24 +37,29 @@
   height: 25px;
   text-align: center;
 	font-family: HelveticaNeue;
-	font-size: 12px;
+	font-size: 24px;
   line-height: 24px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-	color: #fff;
+  color: #fff;
+  margin-top:30px;
 }
 
 .common-panel-header-dpValue {
-	width: 114px;
-	height: 75px;
   font-family: DINCondensed-Bold;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align: center;
 	font-size: 74px;
-	color: #fff;
+  
+  border-radius: 100%;
+  background-color: azure;
+  color: #650483;
+  width: 200px;
+  height: 155px;
+  padding-top: 45px;
 }
 
 .roDpItem-normal {
@@ -117,7 +130,35 @@
 }
 
 .scroll-view {
-  padding: 16px 8px;
+  _padding: 16px 8px;
+  padding: 1%;
   width: auto;
   height: 100%;
+}
+
+.statuslist-item{
+  width: 48%;
+  height: 120px;
+  background-color: #650483;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  _border-color: white;
+  _border-width: 1px;
+  _border-style: solid;
+  margin: 1%;
+}
+
+.statuslist-item-btn{
+  padding-top: 40px;
+  
+}
+.statuslist-item-value{
+  padding-top: 20px;
+  font-size:16px;
+}
+.statuslist-item-label{
+  padding-top: 10px;
+  
 }
