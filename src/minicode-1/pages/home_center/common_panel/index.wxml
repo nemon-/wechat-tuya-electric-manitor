@@ -2,7 +2,7 @@
 <wxs src="./index.wxs" module="utils" />
 
 <image class="common-panel-backgroud" src="{{forest}}" />
-<navbar device_name="{{device_name}}" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+<navbar device_name="[{{device_name}}]" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
 
 <view class="common-panel-header">
   <view class="common-panel-header-block">
@@ -37,5 +37,10 @@
           bind:sendDp="sendDp" />
       </block>
     </block>
+
+    <view class="integer-container">
+      <view class="integer-name">电量(kwh):6.66 kwh</view>
+    </view>
+
   </block>
 </view>
